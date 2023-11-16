@@ -1,0 +1,1 @@
+advancement revoke @s only dsd:hurt_by_enemy
