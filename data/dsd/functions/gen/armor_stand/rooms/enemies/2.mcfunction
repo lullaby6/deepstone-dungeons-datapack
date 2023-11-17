@@ -31,3 +31,5 @@ execute if score @s dsd.random.enemies.2 matches 6 if entity @s[tag=dsd.path.sou
 execute if score @s dsd.random.enemies.2 matches 6 if entity @s[tag=dsd.path.north] run place template dsd:rooms/enemies/2/6 ~8 ~-1 ~ 180
 execute if score @s dsd.random.enemies.2 matches 6 if entity @s[tag=dsd.path.east] run place template dsd:rooms/enemies/2/6 ~ ~-1 ~8 counterclockwise_90
 execute if score @s dsd.random.enemies.2 matches 6 if entity @s[tag=dsd.path.west] run place template dsd:rooms/enemies/2/6 ~ ~-1 ~-8 clockwise_90
+
+kill @s

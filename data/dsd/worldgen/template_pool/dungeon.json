@@ -48,7 +48,7 @@
             }
         },
         {
-            "weight": 5,
+            "weight": 15,
             "element": {
                 "location": "dsd:connectors/hallways/1",
                 "processors": "minecraft:empty",
@@ -78,6 +78,15 @@
             "weight": 60,
             "element": {
                 "location": "dsd:rooms/enemies/2",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {
+            "weight": 40,
+            "element": {
+                "location": "dsd:rooms/enemies/3",
                 "processors": "minecraft:empty",
                 "projection": "rigid",
                 "element_type": "minecraft:single_pool_element"
