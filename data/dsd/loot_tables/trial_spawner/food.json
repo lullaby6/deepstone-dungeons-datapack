@@ -5,12 +5,15 @@
         "entries": [
           {
             "type": "item",
-            "weight": 1,
+            "weight": 5,
             "name": "minecraft:golden_carrot",
             "functions": [
               {
                 "function": "set_count",
-                "count": 1
+                "count": {
+                  "min": 2,
+                  "max": 4
+                }
               }
             ]
           },

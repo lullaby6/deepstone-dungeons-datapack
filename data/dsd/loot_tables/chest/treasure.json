@@ -4,13 +4,13 @@
       {
         "rolls": {
           "min": 3,
-          "max": 6
+          "max": 8
         },
         "entries": [
           {
             "type": "loot_table",
-            "weight": 1,
-            "name": "dsd:loot/tool",
+            "weight": 10,
+            "name": "dsd:chest/iron/tool",
             "functions": [
               {
                 "function": "set_count",
@@ -21,7 +21,18 @@
           {
             "type": "loot_table",
             "weight": 1,
-            "name": "dsd:loot/weapon",
+            "name": "dsd:chest/diamond/tool",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "type": "loot_table",
+            "weight": 10,
+            "name": "dsd:chest/iron/weapon",
             "functions": [
               {
                 "function": "set_count",
@@ -32,7 +43,18 @@
           {
             "type": "loot_table",
             "weight": 1,
-            "name": "dsd:loot/armor",
+            "name": "dsd:chest/diamond/weapon",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "type": "loot_table",
+            "weight": 10,
+            "name": "dsd:chest/iron/armor",
             "functions": [
               {
                 "function": "set_count",
@@ -43,7 +65,7 @@
           {
             "type": "loot_table",
             "weight": 1,
-            "name": "dsd:loot/book",
+            "name": "dsd:chest/diamond/armor",
             "functions": [
               {
                 "function": "set_count",
@@ -53,7 +75,18 @@
           },
           {
             "type": "loot_table",
-            "weight": 1,
+            "weight": 10,
+            "name": "dsd:chest/book",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "type": "loot_table",
+            "weight": 15,
             "name": "dsd:trial_spawner/extra",
             "functions": [
               {
@@ -64,7 +97,7 @@
           },
           {
             "type": "loot_table",
-            "weight": 1,
+            "weight": 15,
             "name": "dsd:trial_spawner/food",
             "functions": [
               {
@@ -75,7 +108,7 @@
           },
           {
             "type": "loot_table",
-            "weight": 1,
+            "weight": 15,
             "name": "dsd:trial_spawner/material",
             "functions": [
               {
@@ -86,7 +119,7 @@
           },
           {
             "type": "loot_table",
-            "weight": 1,
+            "weight": 15,
             "name": "dsd:trial_spawner/suspicious_stew",
             "functions": [
               {

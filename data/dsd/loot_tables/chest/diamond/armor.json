@@ -11,7 +11,7 @@
                   "levels": {
                     "type": "minecraft:uniform",
                     "max": 30.0,
-                    "min": 5.0
+                    "min": 10.0
                   },
                   "treasure": true
                 },
@@ -23,76 +23,7 @@
                   }
                 }
               ],
-              "name": "minecraft:iron_pickaxe",
-              "weight": 10
-            },
-            {
-              "type": "minecraft:item",
-              "functions": [
-                {
-                  "function": "minecraft:enchant_with_levels",
-                  "levels": {
-                    "type": "minecraft:uniform",
-                    "max": 30.0,
-                    "min": 5.0
-                  },
-                  "treasure": true
-                },
-                {
-                  "function": "set_damage",
-                  "damage": {
-                    "min": 0.25,
-                    "max": 0.75
-                  }
-                }
-              ],
-              "name": "minecraft:iron_shovel",
-              "weight": 10
-            },
-            {
-              "type": "minecraft:item",
-              "functions": [
-                {
-                  "function": "minecraft:enchant_with_levels",
-                  "levels": {
-                    "type": "minecraft:uniform",
-                    "max": 30.0,
-                    "min": 5.0
-                  },
-                  "treasure": true
-                },
-                {
-                  "function": "set_damage",
-                  "damage": {
-                    "min": 0.25,
-                    "max": 0.75
-                  }
-                }
-              ],
-              "name": "minecraft:iron_hoe",
-              "weight": 10
-            },
-            {
-              "type": "minecraft:item",
-              "functions": [
-                {
-                  "function": "minecraft:enchant_with_levels",
-                  "levels": {
-                    "type": "minecraft:uniform",
-                    "max": 30.0,
-                    "min": 5.0
-                  },
-                  "treasure": true
-                },
-                {
-                  "function": "set_damage",
-                  "damage": {
-                    "min": 0.25,
-                    "max": 0.75
-                  }
-                }
-              ],
-              "name": "minecraft:diamond_pickaxe",
+              "name": "minecraft:diamond_helmet",
               "weight": 1
             },
             {
@@ -103,7 +34,7 @@
                   "levels": {
                     "type": "minecraft:uniform",
                     "max": 30.0,
-                    "min": 5.0
+                    "min": 10.0
                   },
                   "treasure": true
                 },
@@ -115,7 +46,7 @@
                   }
                 }
               ],
-              "name": "minecraft:diamond_shovel",
+              "name": "minecraft:diamond_chestplate",
               "weight": 1
             },
             {
@@ -126,7 +57,7 @@
                   "levels": {
                     "type": "minecraft:uniform",
                     "max": 30.0,
-                    "min": 5.0
+                    "min": 10.0
                   },
                   "treasure": true
                 },
@@ -138,7 +69,30 @@
                   }
                 }
               ],
-              "name": "minecraft:diamond_hoe",
+              "name": "minecraft:diamond_leggings",
+              "weight": 1
+            },
+            {
+              "type": "minecraft:item",
+              "functions": [
+                {
+                  "function": "minecraft:enchant_with_levels",
+                  "levels": {
+                    "type": "minecraft:uniform",
+                    "max": 30.0,
+                    "min": 10.0
+                  },
+                  "treasure": true
+                },
+                {
+                  "function": "set_damage",
+                  "damage": {
+                    "min": 0.25,
+                    "max": 0.75
+                  }
+                }
+              ],
+              "name": "minecraft:diamond_boots",
               "weight": 1
             }
         ]
