@@ -1,0 +1,2 @@
+execute if entity @s[tag=dsd.boss.skeleton_hunter.bow] if entity @a[distance=..3.5] run function dsd:entities/enemies/bosses/skeleton_hunter/equip/axe
+execute if entity @s[tag=dsd.boss.skeleton_hunter.axe] unless entity @a[distance=..3.75] run function dsd:entities/enemies/bosses/skeleton_hunter/equip/bow

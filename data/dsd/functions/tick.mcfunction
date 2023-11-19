@@ -1,6 +1,6 @@
 # Bosses
 
-execute as @e[tag=dsd.boss.spider_rogue] at @s run function dsd:entities/enemies/bosses/spider_rogue/tick
+execute if entity @e[tag=dsd.boss] run function dsd:entities/enemies/bosses/tick
 
 # Gen
 
