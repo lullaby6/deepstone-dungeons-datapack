@@ -1,5 +1,5 @@
-execute store result score @s rc.random.enemy.special run random roll 1..10
+execute store result score @s dsd.random.enemy.special run random roll 1..10
 
-execute if score @s rc.random.enemy.special matches 1 run function roguecraft:entities/enemies/special/zombie/raged
+execute if score @s dsd.random.enemy.special matches 1..2 run function dsd:entities/enemies/special/type
 
-tag @s add rc.enemy.special.procced
+tag @s add dsd.enemy.special.procced

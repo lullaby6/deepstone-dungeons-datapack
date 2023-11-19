@@ -1,3 +1,7 @@
+# Entities
+
+execute as @e[tag=dsd.enemy,tag=!dsd.enemy.special.procced] run function dsd:entities/enemies/special/procced
+
 # Bosses
 
 execute if entity @e[tag=dsd.boss] run function dsd:entities/enemies/bosses/tick
