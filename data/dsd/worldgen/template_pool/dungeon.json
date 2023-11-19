@@ -93,6 +93,15 @@
             }
         },
         {
+            "weight": 40,
+            "element": {
+                "location": "dsd:rooms/enemies/4",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {
             "weight": 1,
             "element": {
                 "location": "dsd:trial_spawners/zombie",
